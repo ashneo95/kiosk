@@ -7,7 +7,6 @@ from win10toast import ToastNotifier
 toast = ToastNotifier()
 print(gui.size())
 sx,sy = gui.size()
-#gui.alert('Waiting 30 seconds before taking control. \n Ensure Kiosk window is open and set to 100% zoom.')
 time.sleep(3)
 
 while True:
